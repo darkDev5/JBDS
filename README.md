@@ -1,5 +1,6 @@
 # JBDS
 Java better data structure is a library contains features you can use to upgrade language base functionality.
+New features to work with Strings,Numbers,Characters and some new data structures.
 
 
 ## Usage
