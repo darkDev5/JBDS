@@ -68,15 +68,7 @@ public class StringUtils {
      * @return Returns true if String doesn't contain numbers and false if it contains numbers.
      */
     public static boolean isText(String input) {
-        var numbers = Arrays.asList('0', '1', '2', '3', '4', '5', '6', '7', '8', '9');
-
-        for (char c : input.toCharArray()) {
-            if (numbers.contains(c)) {
-                return false;
-            }
-        }
-
-        return true;
+        return !org.apache.commons.lang3.StringUtils.isNumeric(input);
     }
 
     /**
