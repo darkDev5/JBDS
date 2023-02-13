@@ -1,0 +1,128 @@
+AutoBoxer
+--------------------
+toBoolean(boolean b)
+toCharacter(char c)
+toInteger(int i)
+toFloat(float f)
+toDouble(double d)
+toLong(long l)
+toShort(short s)
+toByte(byte b)
+
+BooleanUtils
+--------------------
+booleanToNumber(boolean input)
+reverseBoolean(boolean input)
+
+CharacterUtils
+--------------------
+toLowerCase(char input)
+toUpperCase(char input)
+getAsciiCode(char input)
+getCharacter(int ascii)
+charactersEqual(char first, char second, boolean caseSensitive)
+
+StringUtils
+--------------------
+isNullOrEmpty(String input)
+isNullOrBlank(String input)
+reverse(String input)
+isNumber(String input)
+isText(String input)
+split(String input, int length, boolean removeWhiteSpaces)
+
+NumberUtils
+--------------------
+isEven(double input)
+isOdd(double input)
+isPerfect(double number)
+isPrime(double number)
+
+DarkArrays
+--------------------
+count(E[] array, E key)
+
+NumberList
+--------------------
+add(Number number)
+remove(Number number)
+get(int index)
+set(int index, Number number)
+contains(Number number)
+isEmpty()
+clear()
+size()
+sort(Comparator<Number> comparator)
+indexOf(Number number)
+toArray()
+countDuplicates(Number key)
+removeDuplicates()
+reverse()
+performOperation(NumberOperation operartion, Number value)
+receiveNumbers(NumberType numberType)
+biggest()
+smallest()
+biggestIndex()
+smallestIndex()
+inRangeOf(Number start, Number end, NumberSortType sortType)
+printToConsole(boolean showNumber, boolean nextLine)
+eqauls(Object obj)
+toString()
+hashCode()
+iterator()
+
+NumberListComparator
+--------------------
+compare(Number o1, Number o2)
+
+NumberOperation
+--------------------
+Sum, Subtract, Multiply, Divide, Pow
+
+NumberSortType
+--------------------
+Ascending, Descending
+
+NumberType
+--------------------
+Even, Odd, Perfect, Prime
+
+StringList
+--------------------
+add(Number number)
+remove(Number number)
+get(int index)
+set(int index, Number number)
+contains(Number number)
+isEmpty()
+clear()
+size()
+sort(Comparator<String> comparator)
+indexOf(Number number)
+toArray()
+countDuplicates(String key)
+removeDuplicates()
+reverse()
+biggest()
+smallest()
+biggestIndex()
+smallestIndex()
+toLowerCase()
+toUpperCase()
+concat(Object input)
+concat(int index, Object input)
+capitalize()
+deCapitalize()
+printToConsole(boolean showNumber, boolean nextLine)
+eqauls(Object obj)
+toString()
+hashCode()
+iterator()
+
+StringListAlphabeticComparator
+--------------------
+compare()
+
+StringListLengthComparator
+--------------------
+compare()
